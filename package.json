@@ -1,0 +1,22 @@
+{
+  "name": "it-incubator",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/Jeckill1993/it-incubator.git",
+  "author": "Jeckill1993 <evgeniyduplenko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "yarn nodemon --inspect .\\dist\\index.js\n"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
